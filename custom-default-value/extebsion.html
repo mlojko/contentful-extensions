@@ -16,10 +16,9 @@
       extension.window.startAutoResizer();
 
       var inputEl = document.querySelector('.cf-form-input');
-      inputEl.value = extension.field.getValue() || '';
+      inputEl.value = extension.parameters.instance.customDefaultValue;
 
-      var customDefaultValue = extension.parameters.instance.customDefaultValue;
-      var defaultColorText = document.createTextNode(customDefaultValue || 'none');
+      var customDefaultValue = extension.parameters.instance.customDefaultValue;     
 
 
       var isNewlyCreated = extension.entry.getSys().version < 2;
@@ -28,8 +27,6 @@
       if (isNewlyCreated && hasNoValue) {
         extension.field.setValue(customDefaultValue || '');
       }
-
-      
     });
   </script>
 </body>

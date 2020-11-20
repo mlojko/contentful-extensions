@@ -8,8 +8,7 @@
       {
         "id": "customDefaultValue",
         "name": "Custom Default Value",
-        "type": "Symbol",        
-        "required": true
+        "type": "Symbol"
       }
     ]
   }
