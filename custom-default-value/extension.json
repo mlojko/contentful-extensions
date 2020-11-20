@@ -1,14 +1,13 @@
 {
   "id": "custom-default-value",
   "name": "Default value for a field",
-  "srcdoc": "./extension.html",
+  "srcdoc": "extension.html",
   "fieldTypes": ["Symbol"],
   "parameters": {
     "instance": [
       {
         "id": "customDefaultValue",
         "name": "Custom Default Value",
-        "description": "Fill out default value",
         "type": "Symbol",        
         "required": true
       }
