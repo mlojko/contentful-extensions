@@ -2,14 +2,14 @@
   "id": "custom-default-value",
   "name": "Default value for a field",
   "srcdoc": "extension.html",
-  "fieldTypes": ["Symbol"],
+  "fieldTypes": ["Symbol", "Text"],
   "parameters": {
     "instance": [
       {
         "id": "customDefaultValue",
+		"type": "Symbol", 
         "name": "Custom Default Value",
-        "type": "Symbol",        
-        "required": true
+		"required": true
       }
     ]
   }
